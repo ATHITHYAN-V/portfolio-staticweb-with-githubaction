@@ -484,3 +484,34 @@ img {
     width: 450px;
   }
 }
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+  padding: 10px 20px;
+  background: #5243fc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+  text-shadow: #5243fc;
+  
+  
+}
+
+.button:hover {
+  background: #f7f3f2;
+  color: blue;
+  border: 2px solid blue;
+ 
+}
+
+.button-icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+  
+}
+
+/* /projectsss--> */
+
